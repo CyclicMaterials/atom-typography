@@ -1,0 +1,145 @@
+/* Shared Styles */
+
+.atom-Typography,
+.atom-Typography--expensiveKerning,
+.atom-Typography--nowrap,
+.atom-Typography--display4,
+.atom-Typography--display3,
+.atom-Typography--display2,
+.atom-Typography--display1,
+.atom-Typography--headline,
+.atom-Typography--title,
+.atom-Typography--subhead,
+.atom-Typography--body2,
+.atom-Typography--body1,
+.atom-Typography--caption,
+.atom-Typography--menu,
+.atom-Typography--button {
+  font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+.atom-Typography--code,
+.atom-Typography--code2,
+.atom-Typography--code1 {
+  font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace;;
+}
+
+.atom-Typography--expensiveKerning,
+.atom-Typography--display4,
+.atom-Typography--display3,
+.atom-Typography--display2,
+.atom-Typography--display1,
+.atom-Typography--headline,
+.atom-Typography--title,
+.atom-Typography--subhead,
+.atom-Typography--caption,
+.atom-Typography--menu,
+.atom-Typography--button {
+  text-rendering: optimizeLegibility;
+}
+
+.atom-Typography--nowrap,
+.atom-Typography--display4,
+.atom-Typography--display3,
+.atom-Typography--title,
+.atom-Typography--caption,
+.atom-Typography--menu,
+.atom-Typography--button {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Font Styles */
+
+.atom-Typography--display4 {
+  font-size: 112px;
+  font-weight: 300;
+  letter-spacing: -0.044em;
+  line-height: 120px;
+}
+
+.atom-Typography--display3 {
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: -0.026em;
+  line-height: 60px;
+}
+
+.atom-Typography--display2 {
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: -0.018em;
+  line-height: 48px;
+}
+
+.atom-Typography--display1 {
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 40px;
+}
+
+.atom-Typography--headline {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.012em;
+  line-height: 32px;
+}
+
+.atom-Typography--title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.atom-Typography--subhead {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.atom-Typography--body2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.atom-Typography--body1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.atom-Typography--caption {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.011em;
+  line-height: 20px;
+}
+
+.atom-Typography--menu {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.atom-Typography--button {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.018em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.atom-Typography--code2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.atom-Typography--code1 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "atom-typography",
+  "version": "0.0.1",
+  "author": "Frederik Krautwald",
+  "description": "Material Design typography",
+  "license": "MIT",
+  "bugs": "https://github.com/CyclicMaterials/atom-typography/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyclicMaterials/atom-typography"
+  },
+  "keywords": [
+    "cyclejs",
+    "typography",
+    "Material Design"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}
