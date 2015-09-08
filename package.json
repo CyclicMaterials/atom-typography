@@ -15,6 +15,14 @@
     "Material Design"
   ],
   "dependencies": {},
-  "devDependencies": {},
-  "scripts": {}
+  "devDependencies": {
+    "cli-release": "^1.0.3",
+    "validate-commit-message": "^3.0.1"
+  },
+  "scripts": {
+    "start": "npm install && validate-commit-msg",
+    "patch": "release patch",
+    "minor": "release minor",
+    "major": "release major"
+  }
 }
